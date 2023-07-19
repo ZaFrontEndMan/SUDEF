@@ -23,7 +23,8 @@ const Home = () => {
             setIsloading(false)
         }
             catch(error)
-            {console.error(); }
+            {console.error();
+            setIsloading(false) }
 }
 
 //fetching data
