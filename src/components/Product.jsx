@@ -17,8 +17,8 @@ export default function Product({product , setProduct }) {
    </div>
 
    <div>
-   <div class="row">
-  <div class=" text-truncate">
+   <div className="row">
+  <div className=" text-truncate">
   <h2  className="h6  py-2">Name  :<span className="text-muted">  {product.title}</span> </h2>
   </div>
 </div>
